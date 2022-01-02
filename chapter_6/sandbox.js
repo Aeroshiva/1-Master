@@ -15,27 +15,28 @@
     // link.innerText='Welcome InsightsIAS website';
     // //head.setAttribute('style','color:blue;')
 
-//changing CSS styles:
+//Changing CSS styles:
     // console.log(head.style.color);
     // head.style.fontSize = '20px';
     // head.style.color='';
 
-//Adding and changing page content
-
+//Adding and removing classes
     // const content = document.querySelector('p');
 
     // console.log(content.classList);
     // content.classList.add('succes');
     // content.classList.remove('succes');
 
-const paras = document.querySelectorAll('p');
+//finding text content
+    // const paras = document.querySelectorAll('p');
 
-paras.forEach( para => {
-    if(para.textContent.includes('error')){
-    para.classList.add('error');
-    } else if(para.textContent.includes('success')){
-        para.classList.add('success');
-    } else{
-        para.style.color ='blue';
-    }  
-    }); 
+    // paras.forEach( para => {
+    //     if(para.textContent.includes('error')){
+    //     para.classList.add('error');
+    //     } else if(para.textContent.includes('success')){
+    //         para.classList.add('success');
+    //     } else{
+    //         para.style.color ='blue';
+    //     }  
+    //     }); 
+
